@@ -14,6 +14,7 @@
 		18EAE42E1F7CA85C00CF75E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EAE42C1F7CA85C00CF75E5 /* LaunchScreen.storyboard */; };
 		18EAE4391F7CA85C00CF75E5 /* SceneKitTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAE4381F7CA85C00CF75E5 /* SceneKitTemplateTests.swift */; };
 		18EAE4441F7CA85C00CF75E5 /* SceneKitTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAE4431F7CA85C00CF75E5 /* SceneKitTemplateUITests.swift */; };
+		18EAE4521F7CA91500CF75E5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAE4511F7CA91500CF75E5 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		18EAE43F1F7CA85C00CF75E5 /* SceneKitTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SceneKitTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EAE4431F7CA85C00CF75E5 /* SceneKitTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitTemplateUITests.swift; sourceTree = "<group>"; };
 		18EAE4451F7CA85C00CF75E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EAE4511F7CA91500CF75E5 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				18EAE4231F7CA85C00CF75E5 /* AppDelegate.swift */,
 				18EAE4251F7CA85C00CF75E5 /* ViewController.swift */,
 				18EAE4271F7CA85C00CF75E5 /* Main.storyboard */,
+				18EAE4511F7CA91500CF75E5 /* GameScene.swift */,
 				18EAE42A1F7CA85C00CF75E5 /* Assets.xcassets */,
 				18EAE42C1F7CA85C00CF75E5 /* LaunchScreen.storyboard */,
 				18EAE42F1F7CA85C00CF75E5 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EAE4521F7CA91500CF75E5 /* GameScene.swift in Sources */,
 				18EAE4261F7CA85C00CF75E5 /* ViewController.swift in Sources */,
 				18EAE4241F7CA85C00CF75E5 /* AppDelegate.swift in Sources */,
 			);
